@@ -2,6 +2,7 @@ import express from 'express';
 import ic from '../lib/index.js';
 
 let application = express();
+let port = 80 || 443;
 
 application.use(express.json());
 application.use(express.urlencoded({
@@ -21,6 +22,6 @@ application.get('/validate', function (request, result) {
     });
 });
 
-application.listen(80, function () {
+application.listen(port, function () {
     console.log(`Running.....`);
 });
