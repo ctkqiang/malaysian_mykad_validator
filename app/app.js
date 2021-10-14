@@ -2,7 +2,7 @@ import express from 'express';
 import ic from '../lib/index.js';
 
 let application = express();
-let port = 3000 || 443;
+let port = 8080 || 443;
 
 application.use(express.json());
 application.use(express.urlencoded({
