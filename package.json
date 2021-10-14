@@ -1,0 +1,34 @@
+{
+  "name": "malaysian_mykad_validator",
+  "version": "1.0.0",
+  "description": "A simple Malaysian Identity Card Validator",
+  "main": "lib/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "pm2 start ./app/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "malaysia",
+    "mykad",
+    "validator",
+    "IC",
+    "kad-pengenalan",
+    "security"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnmelodyme/help_fund_backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johnmelodyme/help_fund_backend/issues"
+  },
+  "homepage": "https://github.com/johnmelodyme/help_fund_backend#readme",
+  "author": "John Melody Me",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pm2": "^5.1.2",
+    "supervisor": "^0.12.0"
+  }
+}
