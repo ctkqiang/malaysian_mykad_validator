@@ -1,8 +1,10 @@
 import express from 'express';
 import ic from '../lib/index.js';
 
+//  heroku ps:scale web=1
+
 let application = express();
-let port = 8080 || 443;
+let port = 3000 || 443;
 
 application.use(express.json());
 application.use(express.urlencoded({
@@ -21,6 +23,8 @@ application.get('/validate', function (request, result) {
         result: new ic(param['ic']).validate(),
     });
 });
+
+application.set('port', 3000)
 
 application.listen(port, function (err) {
     if (err) throe(err);
