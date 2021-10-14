@@ -1,6 +1,6 @@
 {
   "name": "malaysian_mykad_validator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple Malaysian Identity Card Validator",
   "main": "lib/index.js",
   "type": "module",
@@ -18,12 +18,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnmelodyme/help_fund_backend.git"
+    "url": "git+https://github.com/johnmelodyme/malaysian_mykad_validator.git"
   },
   "bugs": {
-    "url": "https://github.com/johnmelodyme/help_fund_backend/issues"
+    "url": "https://github.com/johnmelodyme/malaysian_mykad_validator/issues"
   },
-  "homepage": "https://github.com/johnmelodyme/help_fund_backend#readme",
+  "homepage": "https://github.com/johnmelodyme/malaysian_mykad_validator#readme",
   "author": "John Melody Me",
   "license": "MIT",
   "dependencies": {
