@@ -1,15 +1,12 @@
 {
   "name": "malaysian_mykad_validator",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "A simple Malaysian Identity Card Validator",
   "main": "lib/index.js",
   "type": "module",
   "scripts": {
-    "start": "node ./app/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "engines": {
-    "node": "16.6.1"
+    "start": "node ./lib/index.js",
+    "test": "node ./app/app.js"
   },
   "keywords": [
     "malaysia",
